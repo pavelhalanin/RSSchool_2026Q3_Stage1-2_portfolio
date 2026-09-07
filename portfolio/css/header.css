@@ -1,0 +1,44 @@
+.header {
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header__logo_block {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header__nav ul>li {
+    list-style-type: none;
+}
+
+.header__nav ul>li>a {
+    padding: 18px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
